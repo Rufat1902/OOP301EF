@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="OOP301EF.AdoNetEF/OOP301EF.AdoNetEF.csproj" Id="0b60c31f-d287-4129-9c28-71608289b9e9" />
+  <Project Path="OOP301EF.BusinessLayer/OOP301EF.BusinessLayer.csproj" Id="291b40ce-ac34-4bce-bd89-7a6082f68710" />
+  <Project Path="OOP301EF.DataAccessLayer/OOP301EF.DataAccessLayer.csproj" Id="ac2accd6-2bf9-416a-910b-46aa4191140a" />
+  <Project Path="OOP301EF.EntityLayer/OOP301EF.EntityLayer.csproj" Id="80d18e01-07c5-4ab5-bad6-cb97ee471a85" />
+  <Project Path="OOP301EF.PresentationLayer/OOP301EF.PresentationLayer.csproj" Id="e5e1bda3-68a5-4c38-9eb9-366f19ee33f4" />
+</Solution>
