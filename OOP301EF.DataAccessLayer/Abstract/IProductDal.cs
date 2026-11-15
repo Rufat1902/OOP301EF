@@ -9,5 +9,6 @@ namespace OOP301EF.DataAccessLayer.Abstract
 {
     public interface IProductDal : IGenericDal<Product>
     {
+        List<Object> GetProductsWithCategory();
     }
 }

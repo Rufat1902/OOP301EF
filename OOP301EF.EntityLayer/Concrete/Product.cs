@@ -15,6 +15,6 @@ namespace OOP301EF.EntityLayer.Concrete
         public decimal ProductPrice { get; set; }
         public virtual Category Category { get; set; }
         public List<Order> Orders { get; set; }
-
+        public int CategoryId { get; set; }
     }
 }

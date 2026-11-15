@@ -33,6 +33,11 @@ namespace OOP301EF.BusinessLayer.Concrete
             return _productDal.GetById(id);
         }
 
+        public List<Object> TGetProductWithCategory()
+        {
+            return _productDal.GetProductsWithCategory();
+        }
+
         public void TInsert(Product entity)
         {
             _productDal.Insert(entity);

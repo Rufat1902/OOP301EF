@@ -9,5 +9,6 @@ namespace OOP301EF.BusinessLayer.Abstract
 {
     public interface IProductService : IGenericService<Product>
     {
+        List<Object> TGetProductWithCategory();
     }
 }

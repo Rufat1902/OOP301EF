@@ -63,6 +63,10 @@
     <Compile Include="Migrations\202611091506152_mig1.Designer.cs">
       <DependentUpon>202611091506152_mig1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202611141523491_mig2.cs" />
+    <Compile Include="Migrations\202611141523491_mig2.Designer.cs">
+      <DependentUpon>202611141523491_mig2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\EFCategoryDal.cs" />
@@ -85,6 +89,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202611091506152_mig1.resx">
       <DependentUpon>202611091506152_mig1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202611141523491_mig2.resx">
+      <DependentUpon>202611141523491_mig2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
